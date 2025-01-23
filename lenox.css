@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(7, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+.brief{
+    float: left;
+    width: 200px;
+    padding: 8px;
+    margin-top: 7px;
+    position: static;
+    display: block;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+.des{
+    float: left;
+    padding-left: 1px;
+}
+b{
+    font-weight: bold;
+    font-size: 50px;
+}
+input{
+    border-radius: 8px;
+    background-color: rgb(58, 55, 55);
+    width: auto;
+    border: none;
+}
+.list{
+    list-style-type: none;
+    padding: 12px;
+    background-color: black;
+    color: aliceblue;
+    margin: 5px;
+    border-style: none;
+    display: block;
+}
+.list:hover{
+    color: rgb(18, 207, 18);
+    cursor: pointer;
+}
+.image1{
+    width: 150px;
+    height: 230px;
+    border-radius: 60px;
+    float: left;
+    left: 0;
+    margin-left: px;
+}
+.b1{
+    background-color: rgb(24, 209, 24);
+    border-radius: 6px;
+    margin: 10px;
+    padding: 8px;
+}
+.b1:hover{
+    background-color: rgba(245, 245, 245, 0.952);
+}
+.b2{
+    background-color: rgb(7, 7, 7);
+    color: aliceblue;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 8px;
+}
+.b2:hover{
+    background-color: rgb(24, 209, 24);
+}
+.d1, .box-container {
+    display: block; 
+    margin: 10px auto;  
+}
+.box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-container .playlist-row {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.box-container p {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    width: 150px; 
+}
+
+.box-container img {
+    margin-bottom: 10px; 
+}
+.h1{
+    text-align: start;
+}
+
+.d1 {
+    margin-bottom: 20px;
+}
+.container {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 10pxh;
+    padding: 6px; /* Full height of the viewport or container */
+}
+
+.image2 {
+    width: 40px;
+}
+image:hover{
+    background-color: rgb(130, 212, 174);
+}
+.image2:hover{
+    background-color: aliceblue;
+}
